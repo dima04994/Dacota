@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>PageName</title>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+    <style>
+        .container {margin-top:50px;}
+        button {margin-left: 10px;}
+        form {border: black solid 1px}
+    </style>
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+    <div class="row">
+        <button type="button" class="btn btn-primary btn-lg">Загрузить расписание</button>
+
+        <ul>
+<br><br><br>
+            <li>CURL страницы например каждую минуту. Добавить данные всего CURL в массив. </li>
+            <h3>Как то так:</h3>
+            $train = train":"001Р"; <br>
+            $document = "document":"8535"; <br>
+            $vagon = "vagon":"01";<br>
+            $place = "place":"013";<br>
+            $arrivaldate = "arrivaldate":"17.01.21";<br>
+            $arrivaltime = "arrivaltime":"11:13";<br>
+            $class = "class":"3Р";<br>
+            $ticket = "ticket":"70362949478630";<br>
+            <br>
+
+            <li>Дальше каждый элемент массива например "Номер поезда" циклом for определить в переменные (для индексации каждого номера как переменную) </li>
+
+
+            <form>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Номер поезда</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="777">
+            </div>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="">Паспорт/вагон/место</span>
+                    </div>
+                    <input type="text" class="form-control">
+                    <input type="text" class="form-control">
+                    <input type="text" class="form-control">
+                </div>
+
+                    <div class="form-group">
+                        <label for="inputDate">Введите дату:</label>
+                        <input type="date" class="form-control">
+                    </div>
+
+            </form>
+
+            <li>кнопка </li>
+            <li>...</li>
+<br>
+        <button type="button" class="btn btn-secondary btn-lg">info</button>
+    </div>
+</div>
+
+</body>
+
+</html>
